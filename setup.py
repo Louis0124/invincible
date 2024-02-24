@@ -17,7 +17,7 @@ URL = 'https://github.com/Louis0124/invincible'
 EMAIL = 'ZK@zk.com'
 AUTHOR = 'ZK'
 REQUIRES_PYTHON = '>=3.4.0'
-VERSION = None
+VERSION = "1.1.1"
 
 # What packages are required for this module to be executed?
 REQUIRED = [
@@ -58,7 +58,7 @@ setup(
     author_email=EMAIL,
     python_requires=REQUIRES_PYTHON,
     url=URL,
-    packages=['pyweathercn'],
+    packages=['invincible'],
     install_requires=REQUIRED,
     license='MIT',
     classifiers=[
